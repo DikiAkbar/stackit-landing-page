@@ -1,0 +1,382 @@
+#jumbo{
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    height: 640px;
+    margin-top: -6% !important;
+    background-attachment: fixed;
+    position: relative;
+    background-position-x: 50%;
+}
+
+.navbar{
+    margin-top: 0px;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+}
+
+.nav-link{
+    font-size: 12px;
+    margin-right: 55px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+.btn-primary{
+    text-transform: uppercase !important;
+    border-radius: 35px !important;
+    font-size: 12px !important;
+    height: 50% !important;
+    background-color: orange !important;
+    border-color: orange !important;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+.jumbotron h1{
+    font-family: 'Montserrat Alternates',sans-serif;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 210%;
+}
+
+.btn-ku{
+    background-image: linear-gradient(360deg,rgb(163, 67, 201),rgb(58, 112, 211));
+    font-size: 14px !important;
+    border-radius: 30px !important;
+    border-color: transparent;
+    width: 140px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    color: white !important;
+}
+
+#posisi-teksjumbotron{
+    padding-top: 30%;
+    padding-left: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+#jumbo::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(0,0,0,1), rgb(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next{
+    filter: invert(100%);
+} */
+
+#h6ku{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 50%; color: white;
+    position: relative; z-index: 1;
+}
+
+.img-logo{
+    width: 15%; margin-top: 4px; position: relative; z-index: 3;
+    display: none;
+    margin: auto;
+}
+
+.btn-login{
+    text-transform: uppercase !important;
+    border-radius: 35px !important;
+    font-size: 12px !important;
+    background-color: orange !important;
+    border-color: orange !important;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    color: white !important;
+    display: block !important;
+    margin: auto !important;
+    width: 70%;
+    margin-bottom: 7% !important;
+}
+
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    margin-top: 5% !important;
+}
+
+.col-lg-4 p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 90%;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5% !important;
+}
+
+#h1-isi{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+}
+
+.caption{
+    margin-left:15%;
+    display: block;
+    margin-top: 20%;
+}
+
+.caption h2{
+    text-align: justify;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: -60px;
+}
+
+.caption h6{
+    text-align: justify;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-right: 20%;
+    margin-top: 3%;
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+.img-act{
+    width: 250px;
+    height: 150px;
+    object-fit: cover; 
+    display: block; margin: auto; border-radius: 0px;
+}
+
+.h2-ku{
+    text-align: center; font-family: 'Montserrat Alternates', sans-serif; font-size: 25px !important;
+}
+
+.team{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 5%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a p{
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a:hover > p{
+    filter: none;
+}
+
+.ps a:hover >img{
+    filter: none;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 3px;
+    background: brown;
+    margin-bottom: 40px;
+}
+
+.col-md-3{
+    margin: 0 !important;
+}
+
+.item{
+    display: inline-block;
+    margin: 15px 15px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.capt{
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: indianred;
+}
+
+/* tablets */
+@media (min-width: 768px) {
+    #jumbo{
+        background-image: url(img/bg1.jpg);
+        background-size: cover;
+        height: 640px;
+        margin-top: -15% !important;
+        background-attachment: fixed;
+        position: relative;
+        background-position-x: 50%;
+    }
+
+    #posisi-teksjumbotron{
+        padding-top: 20%;
+        padding-left: 10%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #h6ku{
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 20%; color: white;
+        position: relative; z-index: 1;
+    }
+
+    .img-logo{
+        width: 24%; margin-top: 1%; 
+        position: relative;
+        z-index: 3;
+        display: none;
+    }
+}
+
+
+
+/* desktop */
+@media (min-width: 992px){
+    #jumbo{
+        background-image: url(img/bg1.jpg);
+        background-size: cover;
+        height: 670px;
+        margin-top: -110px !important;
+        background-attachment: fixed;
+        position: relative;
+    }
+    
+    #jumbo::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(168deg, rgb(16, 0, 17), rgba(24, 3, 34, 0.144));
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .navbar{
+        margin-top: 30px !important;
+        position: relative;
+        z-index: 2;
+        background-color: transparent;
+    }
+    
+    .nav-link{
+        font-size: 12px;
+        margin-right: 55px;
+        text-transform: uppercase;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 500 !important;
+        color: white !important;
+    }
+    
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid yellowgreen;
+        width: 80%;
+        padding-bottom: 5px;
+        margin-bottom: -8px !important;
+        margin: auto;
+    }
+    
+    .navbar-brand{
+        font-size: 30px !important;
+        font-family: 'Poppins', sans-serif;
+        color: white !important;
+    }
+    
+    .btn-primary{
+        text-transform: uppercase !important;
+        border-radius: 35px !important;
+        font-size: 12px !important;
+        height: 50% !important;
+        background-color: orange !important;
+        border-color: orange !important;
+        font-family: 'Montserrat Alternates', sans-serif !important;
+    }
+    
+    .jumbotron h1{
+        font-family: 'Montserrat Alternates',sans-serif;
+        color: white;
+        text-shadow: 1px 1px black;
+        font-size: 50px;
+    }
+    
+    .btn-ku{
+        background-image: linear-gradient(360deg,rgb(163, 67, 201),rgb(58, 112, 211));
+        font-size: 16px !important;
+        border-radius: 30px !important;
+        border-color: transparent;
+        width: 140px;
+        text-transform: uppercase;
+        font-family: 'Montserrat Alternates', sans-serif !important;
+        color: white !important;
+    }
+    
+    #posisi-teksjumbotron{
+        padding-top: 10%;
+        padding-left: 24%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #h6ku{
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 130px; color: white;
+        position: relative; z-index: 1;
+    }
+
+    .img-logo{
+        width: 13%; 
+        margin-top: 31px !important;
+        position: relative; 
+        z-index: 3;
+        display: block;
+    }
+
+    #h1-isi{
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 50px !important;
+        margin-bottom: 5%;
+    }
+
+    .caption{
+        margin-left: -40%;
+        display: block;
+        margin-top: 30%;
+    }
+    
+    .caption h2{
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    .caption h6{
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-right: 30%;
+        margin-top: 3%;
+        font-weight: lighter;
+        font-size: 90%;
+    }
+
+    .img-act{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        display: block; margin: auto; border-radius: 20px;
+    }
+
+    .h2-ku{
+        text-align: center; font-family: 'Montserrat Alternates', sans-serif; font-size: 55px !important;
+    }
+}

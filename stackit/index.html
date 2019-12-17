@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Poppins&display=swap" rel="stylesheet">
+  <title>Stackit-community</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <!-- js -->
+  <link href="script.js" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+    <a class="navbar-brand" href=""><b><i>StackIt</i></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#home">Info</a>
+        <a class="nav-item nav-link" href="#jumbo2">Activity</a>
+        <a class="nav-item nav-link" href="#profil">Team</a>
+        <a class="nav-item btn btn-primary" data-toggle="modal" data-target="#signin-modal" style="color: white !important">Sign In</a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
+        <div class="container" id="posisi-teksjumbotron">
+            <h1><b style="color: #03a9fc;">StackIt</b> Community<br>Web Programing<br>Institute Asia</h1>
+            <a class="nav-item btn btn-ku" href="">Join Us</a>
+        </div>
+        <h6 class="text-center" id="h6ku">
+        we learn, we share, we code</h6>
+        <!-- imgsnippet -->
+        <div class="container" id="home">
+          <img src="img/logo.png" class="img-logo">
+        </div>
+        <!-- akhir img -->
+    </div>
+  <!-- akhir jumbotron -->
+
+  <!-- 1 -->
+    <div class="container mb-5" style="margin-top: 7%;">
+        <!-- home -->
+        <h1 id="h1-isi" class="text-center">what's stackit ?</h1>
+        <!-- gambar -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="img/learn.png" alt="" style="width: 50%; display: block; margin: auto;">
+                <h4>Learning</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ipsam sit vitae natus non nam.</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/share.png" alt="" style="width: 48%; display: block; margin: auto;">
+              <h4>Sharing</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ipsam sit vitae natus non nam.</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/coding.png" alt="" style="width: 50%; display: block; margin: auto;">
+              <h4>Coding</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ipsam sit vitae natus non nam.</p>
+            </div>
+        </div>
+        <button class="btn btn-ku" style="display: block;margin: auto; margin-top: 3%;">more</button>
+    </div>
+  <!-- 1 -->
+
+  <!-- activity -->
+  <section>
+    <div class="jumbotron jumbotron-fluid" id="jumbo2" 
+    style="background-image: linear-gradient(90deg, rgb(0, 5, 29), rgb(1, 41, 94)); color: white;">
+        <div class="container">
+           <h2 class="h2-ku">our activity</h2>
+        </div>
+        <section style="margin-top: 5%; margin-bottom: 3%;">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <!-- 1 -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img src="img/act1.jpeg" class="img-act">
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="caption">
+                      <h2>Activity 1</h2>
+                      <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vel officiis reiciendis possimus, delectus aspernatur ex adipisci
+                        incidunt eius molestiae error distinctio enim natus doloribus a
+                        ullam, nobis ea fugit dignissimos.</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img src="img/act2.jpeg" class="img-act">
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="caption">
+                      <h2>Activity 2</h2>
+                      <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vel officiis reiciendis possimus, delectus aspernatur ex adipisci
+                        incidunt eius molestiae error distinctio enim natus doloribus a
+                        ullam, nobis ea fugit dignissimos.</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </section>
+    </div>
+  </section>
+  <!-- akhir activity -->
+
+  <!-- profil -->
+  <div class="container" id="profil">
+      <div class="team">
+          <h2>meet our team</h2>
+          <div class="border"></div>
+          <div class="ps">
+            <div class="item">
+              <a ><img src="img/profile.jpg" alt="">
+                <p class="capt">Ach Jaylani</p>
+              </a>
+            </div>
+            <div class="item">
+              <a ><img src="img/profile.jpg" alt="">
+                <p class="capt">Diki Akbar</p>
+              </a>
+            </div>
+            <div class="item">
+              <a ><img src="img/profile.jpg" alt="">
+                <p class="capt">Alfat Akbar</p>
+              </a>
+            </div>
+            <div class="item">
+              <a ><img src="img/profile.jpg" alt="">
+                <p class="capt">Sawindri</p>
+              </a>
+            </div>
+          </div>
+          <br>
+      </div>
+  </div>
+  <!-- akhir profil -->
+
+  <!-- modal sign-in -->
+      <div class="modal fade" tabindex="1" role="dialog" id="signin-modal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="text-center" style="margin-bottom: 3%; font-family: 'Montserrat Alternates', sans-serif; text-transform: uppercase;
+                 margin-top: 7%;">Login</h5>
+                 <!-- email -->
+                <div class="form-group" style="width: 70%; display: block; margin: auto; text-transform: uppercase; text-align: center;">
+                    <input type="text" class="form-control item" id="email" placeholder="Email" style="border-radius: 30px !important;margin-bottom: 5%;">
+                </div>
+                <!-- password -->
+                <div class="form-group" style="width: 70%; display: block; margin: auto; text-transform: uppercase; text-align: center;">
+                  <input type="text" class="form-control item" id="password" placeholder="Password" style="border-radius: 30px !important; margin-bottom: 5%;">
+                </div>
+                <button type="button" class="btn btn-login">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- akhir modal sign-in -->
+
+  <!-- footer -->
+  <div>
+    <footer style="margin-bottom: 2%;margin-top: 10px;">
+      <p style="text-align: center; font-family: 'Montserrat Alternates', sans-serif; font-size: 80%; color: grey;">created by diki.gambol 2019</p>
+    </footer>
+  </div>
+  <!-- akhir footer -->
+</body>
+
+</html>
+
+<!-- javascript -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- akhir jaavascript -->
